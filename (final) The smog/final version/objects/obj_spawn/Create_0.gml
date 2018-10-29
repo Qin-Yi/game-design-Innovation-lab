@@ -1,0 +1,12 @@
+spawnrate = 30;
+time=30;
+color = 0;
+facpicked=false;
+facup=1;
+image_xscale = 1;
+image_yscale = 1;
+left = 2;
+right = 3;
+alarm_set(0, spawnrate*facup);
+event = 0;
+subtimer = 0;
